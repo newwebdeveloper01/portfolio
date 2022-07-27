@@ -281,12 +281,13 @@ footer{
 
 }
 .footer{
+    padding: 20px 0;
     display: flex;
     align-items: center;
     
 
 }
-.footer > img{
+.footer > a{
     margin-right: 20px;
 }
 .footer_nov{
@@ -313,7 +314,7 @@ color: #FFFFFF;
     margin-left: auto;
 
 }
-.footer_imgs > img{
+.footer_imgs > a{
     padding: 15px;
 }
 
@@ -403,7 +404,7 @@ text-align: center;
         display:inline-block;
 
     }
-    .footer > img{margin-top: 20px;
+    .footer > a{margin-top: 20px;
         display: block;
         margin-left: 150px;
     }
